@@ -1,0 +1,39 @@
+/* Shared Styles */
+
+.section-heading {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 4.2rem;
+  letter-spacing: -0.357143px;
+}
+
+.paragraph {
+  font-size: 1.6rem;
+  line-height: 3rem;
+  opacity: 0.8;
+}
+
+.btn-primary {
+  display: inline-block;
+  background: var(--dark-blue);
+  color: var(--white);
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 1.7rem;
+  width: 20rem;
+}
+
+.btn-secondary {
+  display: inline-block;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--grayish-dark-blue);
+  padding: 1.7rem 3.6rem 1.7rem 3.2rem;
+  border: 1px solid var(--grayish-dark-blue);
+}

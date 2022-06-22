@@ -52,7 +52,7 @@ const Header = ({ showMenu, closeMenu, toggleMenu, scrollToTop }) => {
                 closeMenu();
               }}
             >
-              Contact
+              Contact Me
             </NavLink>
           </li>
         </ul>

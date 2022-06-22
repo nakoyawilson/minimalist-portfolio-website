@@ -20,7 +20,7 @@ const Footer = ({ scrollToTop }) => {
           </li>
           <li>
             <Link to="contact" onClick={scrollToTop} className="footer-link">
-              Contact
+              Contact Me
             </Link>
           </li>
         </ul>

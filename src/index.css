@@ -6,10 +6,12 @@
   --slightly-desaturated-cyan: hsl(167, 36%, 54%);
   --dark-blue: hsl(205, 41%, 21%);
   --grayish-dark-blue: hsl(245, 10%, 22%);
+  --grayish-darl-blue-transparent: hsla(245, 10%, 22%, 0.15);
   --bright-red: hsl(0, 90%, 57%);
   --light-grey: hsl(240, 2%, 92%);
   --very-light-grey: hsl(0, 0%, 98%);
   --white: hsl(0, 0%, 100%);
+  --black-transparent: hsla(0, 0%, 0%, 0.1);
 }
 
 /* General Styles */
@@ -25,6 +27,7 @@ html {
 body {
   font-family: var(--primary-font);
   font-weight: 400;
+  background-color: var(--very-light-grey);
   color: var(--grayish-dark-blue);
 }
 

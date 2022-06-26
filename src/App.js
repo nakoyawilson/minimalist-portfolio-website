@@ -34,6 +34,8 @@ function App() {
           Frontend Mentor |{" "}
           {pathname === "/"
             ? "Minimalist Portfolio"
+            : pathname === "/portfolio"
+            ? "My Projects"
             : pathname === "/contact"
             ? "Contact Me"
             : "Insert Page Title"}

@@ -1,0 +1,39 @@
+.portfolio {
+  margin: 4rem auto 8rem;
+}
+
+.projects-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7.2rem;
+}
+
+.portfolio .cta {
+  margin-top: 8rem;
+}
+/* Media Queries */
+@media screen and (min-width: 376px) {
+  .portfolio {
+    margin: 9.4rem auto 9.6rem;
+  }
+
+  .projects-wrapper {
+    gap: 8rem;
+  }
+
+  .portfolio .cta {
+    margin-top: 9.6rem;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .portfolio {
+    margin: 9.4rem auto 15rem;
+  }
+
+  .portfolio .cta {
+    margin-top: 15rem;
+  }
+}

@@ -5,6 +5,7 @@ import "./reset.css";
 import "./index.css";
 import App from "./App";
 import Home from "./pages/Home";
+import Portfolio from "./pages/Portfolio";
 import ContactMe from "./pages/ContactMe";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -14,6 +15,7 @@ root.render(
       <Routes>
         <Route path="/" element={<App />}>
           <Route index element={<Home />} />
+          <Route path="portfolio" element={<Portfolio />} />
           <Route path="contact" element={<ContactMe />} />
           <Route path="*" element={<Navigate to="/" replace={true} />} />
         </Route>

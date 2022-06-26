@@ -14,12 +14,12 @@ const ProjectSummary = ({
   return (
     <section className={`project ${layoutClass}`}>
       <picture className="project-summary-img-wrapper">
-        <source media="(max-width: 375px)" srcSet={projectImgMobile} />
+        <source media="(max-width: 888px)" srcSet={projectImgMobile} />
         <source
-          media="(max-width: 1219px) and (min-width: 376px)"
+          media="(max-width: 1297px) and (min-width: 889px)"
           srcSet={projectImgTablet}
         />
-        <source media="(min-width: 1220px)" srcSet={projectImgDesktop} />
+        <source media="(min-width: 1298px)" srcSet={projectImgDesktop} />
         <img src={projectImgMobile} alt="" className="project-summary-img" />
       </picture>
       <div className="text-wrapper">

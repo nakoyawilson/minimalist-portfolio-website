@@ -1,5 +1,5 @@
 .header {
-  width: min(82.93333%, 311px);
+  width: 82.93333%;
   margin: 3.2rem auto 0;
   display: flex;
   justify-content: space-between;
@@ -42,9 +42,9 @@
 }
 
 /* Media Queries */
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 889px) {
   .header {
-    width: min(89.32291%, 686px);
+    width: 89.32291%;
     margin: 6.4rem auto 0;
   }
 
@@ -75,7 +75,7 @@
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1298px) {
   .header {
     width: min(77.15278%, 1111px);
   }

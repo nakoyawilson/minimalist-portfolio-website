@@ -1,7 +1,7 @@
 /* Shared Styles */
 
 .container {
-  width: min(82.93333%, 311px);
+  width: 82.93333%;
 }
 
 .section-heading {
@@ -43,13 +43,13 @@
 }
 
 /* Media Queries */
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 889px) {
   .container {
-    width: min(89.71354%, 689px);
+    width: 89.71354%;
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1298px) {
   .container {
     width: min(77.08333%, 1110px);
   }

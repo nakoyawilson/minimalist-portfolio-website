@@ -6,7 +6,7 @@
 
 /* Media Queries */
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1298px) {
   .social-icon-wrapper .social-icon {
     transition: all 0.5s ease-in-out;
   }

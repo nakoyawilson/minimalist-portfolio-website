@@ -14,7 +14,7 @@
   margin-top: 8rem;
 }
 /* Media Queries */
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 889px) {
   .portfolio {
     margin: 9.4rem auto 9.6rem;
   }
@@ -28,7 +28,7 @@
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1298px) {
   .portfolio {
     margin: 9.4rem auto 15rem;
   }

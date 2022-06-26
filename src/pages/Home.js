@@ -1,11 +1,13 @@
-import { Link } from "react-router-dom";
+import { Link, useOutletContext } from "react-router-dom";
 import avatarMobile from "../images/homepage/mobile/image-homepage-profile@2x.jpg";
 import avatarTablet from "../images/homepage/tablet/image-homepage-profile@2x.jpg";
 import avatarDesktop from "../images/homepage/desktop/image-homepage-profile@2x.jpg";
 import CallToAction from "../components/CallToAction";
 import "./Home.css";
 
-const Home = ({ scrollToTop }) => {
+const Home = () => {
+  const scrollToTop = useOutletContext();
+
   return (
     <main className="home container">
       <section className="hero">
@@ -20,12 +22,12 @@ const Home = ({ scrollToTop }) => {
       </section>
       <div className="about-wrapper">
         <picture>
-          <source media="(max-width: 375px)" srcSet={avatarMobile} />
+          <source media="(max-width: 888px)" srcSet={avatarMobile} />
           <source
-            media="(max-width: 1219px) and (min-width: 376px)"
+            media="(max-width: 1297px) and (min-width: 889px)"
             srcSet={avatarTablet}
           />
-          <source media="(min-width: 1220px)" srcSet={avatarDesktop} />
+          <source media="(min-width: 1298px)" srcSet={avatarDesktop} />
           <img src={avatarMobile} alt="" className="profile-img" />
         </picture>
         <section id="about" className="about">

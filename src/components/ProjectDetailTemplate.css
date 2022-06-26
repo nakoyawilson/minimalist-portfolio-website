@@ -121,7 +121,7 @@
 }
 
 /* Media Queries */
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 889px) {
   .project-detail {
     margin: 9.4rem auto 9.6rem;
   }
@@ -186,7 +186,7 @@
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1298px) {
   .project-detail {
     margin: 9.4rem auto 15rem;
     display: grid;

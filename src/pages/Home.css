@@ -56,7 +56,7 @@
 }
 
 /* Media Queries */
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 889px) {
   .home {
     margin: 4.7rem auto 9.6rem;
   }
@@ -97,7 +97,7 @@
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1298px) {
   .home {
     margin: 5.4rem auto 15rem;
   }

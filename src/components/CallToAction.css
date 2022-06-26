@@ -8,7 +8,7 @@
 }
 
 /* Media Queries */
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 889px) {
   .cta {
     text-align: left;
     display: flex;
@@ -36,7 +36,7 @@
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1298px) {
   .cta .section-heading::after {
     width: 534px;
     right: -566px;

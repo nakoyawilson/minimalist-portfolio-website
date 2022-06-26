@@ -32,7 +32,7 @@ const ProjectDetail = ({
       <Helmet>
         <title>Frontend Mentor | {projectTitle} Project</title>
       </Helmet>
-      <picture>
+      <picture className="hero-img-wrapper">
         <source media="(max-width: 375px)" srcSet={projectHeroMobile} />
         <source
           media="(max-width: 1219px) and (min-width: 376px)"
@@ -95,13 +95,17 @@ const ProjectDetail = ({
           onClick={scrollToTop}
         >
           <img src={leftArrow} alt="" />
-          <span className="link-title">{previousProject}</span>
-          <span className="link-span">Previous Project</span>
+          <div className="link-text-wrapper">
+            <span className="link-title">{previousProject}</span>
+            <span className="link-span">Previous Project</span>
+          </div>
         </Link>
         <Link to={nextLink} className="link next-link" onClick={scrollToTop}>
           <img src={rightArrow} alt="" />
-          <span className="link-title">{nextProject}</span>
-          <span className="link-span">Next Project</span>
+          <div className="link-text-wrapper">
+            <span className="link-title">{nextProject}</span>
+            <span className="link-span">Next Project</span>
+          </div>
         </Link>
       </div>
       <CallToAction />

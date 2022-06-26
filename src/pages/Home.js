@@ -7,7 +7,7 @@ import "./Home.css";
 
 const Home = ({ scrollToTop }) => {
   return (
-    <main className="home">
+    <main className="home container">
       <section className="hero">
         <div className="container">
           <h1 className="section-heading">

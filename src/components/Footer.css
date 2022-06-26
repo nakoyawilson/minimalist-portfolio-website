@@ -29,12 +29,9 @@
   color: var(--white);
 }
 
-.social-icons {
+.footer .social-icons {
   margin-top: 4rem;
-  display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 1.6rem;
 }
 
 /* Media Queries */
@@ -61,7 +58,7 @@
     gap: 4.2rem;
   }
 
-  .social-icons {
+  .footer .social-icons {
     margin: 0 0 0 auto;
   }
 }

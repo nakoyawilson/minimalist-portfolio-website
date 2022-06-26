@@ -1,5 +1,9 @@
 /* Shared Styles */
 
+.container {
+  width: min(82.93333%, 311px);
+}
+
 .section-heading {
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -36,4 +40,17 @@
   color: var(--grayish-dark-blue);
   padding: 1.7rem 3.6rem 1.7rem 3.2rem;
   border: 1px solid var(--grayish-dark-blue);
+}
+
+/* Media Queries */
+@media screen and (min-width: 376px) {
+  .container {
+    width: min(89.71354%, 689px);
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .container {
+    width: min(77.08333%, 1110px);
+  }
 }

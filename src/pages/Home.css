@@ -1,5 +1,4 @@
 .home {
-  width: min(82.93333%, 311px);
   margin: 4rem auto 0;
 }
 
@@ -39,8 +38,8 @@
 }
 
 .about {
-  border-top: 1px solid var(--grayish-darl-blue-transparent);
-  border-bottom: 1px solid var(--grayish-darl-blue-transparent);
+  border-top: 1px solid var(--grayish-dark-blue-transparent);
+  border-bottom: 1px solid var(--grayish-dark-blue-transparent);
   padding: 3.2rem 0 5.1rem;
 }
 
@@ -59,7 +58,6 @@
 /* Media Queries */
 @media screen and (min-width: 376px) {
   .home {
-    width: min(89.71354%, 689px);
     margin: 4.7rem auto 0;
   }
 
@@ -101,7 +99,6 @@
 
 @media screen and (min-width: 769px) {
   .home {
-    width: min(77.08333%, 1110px);
     margin: 5.4rem auto 0;
   }
 

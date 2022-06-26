@@ -1,0 +1,132 @@
+.contact {
+  margin: 4rem auto 8rem;
+}
+
+.get-in-touch,
+.contact-me {
+  border-top: 1px solid var(--grayish-dark-blue-transparent);
+}
+
+/* Get In Touch */
+
+.get-in-touch {
+  padding: 2.4rem 0 3.2rem;
+}
+
+.get-in-touch .paragraph {
+  font-size: 1.5rem;
+  margin-top: 2.4rem;
+}
+
+.get-in-touch .social-icons {
+  margin: 2.4rem 0 0 0;
+}
+
+/* Contact Me */
+.contact-me {
+  padding-top: 3.2rem;
+}
+
+.contact-form {
+  margin-top: 2.4rem;
+}
+
+.input-label {
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 3rem;
+  opacity: 0.8;
+  display: block;
+}
+
+.form-input {
+  display: block;
+  width: 100%;
+  margin: 0.8rem 0 2.4rem;
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 3rem;
+  color: var(--grayish-dark-blue);
+  padding: 0.9rem 1.6rem;
+  border: none;
+  background: var(--input-bg);
+}
+
+.form-input::placeholder {
+  opacity: 0.4;
+}
+
+.form-input:focus {
+  outline: 2px solid var(--dark-blue);
+}
+
+.form-input.message-input {
+  height: 9.6rem;
+}
+
+.send-btn {
+  width: 20rem;
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--white);
+  padding: 1.7rem 2.4rem;
+  background: var(--dark-blue);
+}
+
+/* Media Queries */
+@media screen and (min-width: 376px) {
+  .contact {
+    margin: 9.4rem auto 9.6rem;
+  }
+
+  /* Get In Touch */
+
+  .get-in-touch {
+    padding: 3.2rem 0;
+  }
+
+  /* Contact Me */
+
+  .contact-form {
+    margin-top: 3.2rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contact {
+    margin: 9.4rem auto 10.9rem;
+  }
+
+  .get-in-touch,
+  .contact-me {
+    display: grid;
+    grid-template-columns: 1fr 635px;
+  }
+
+  /* Get In Touch */
+
+  .get-in-touch {
+    padding: 4.8rem 0;
+  }
+
+  .get-in-touch .paragraph {
+    font-size: 1.6rem;
+    margin-top: 0;
+  }
+
+  /* Contact Me */
+
+  .contact-form {
+    margin-top: 4.7rem;
+  }
+
+  .contact-form {
+    margin-top: 0;
+  }
+}

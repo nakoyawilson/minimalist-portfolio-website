@@ -33,12 +33,12 @@ const ProjectDetail = ({
         <title>Frontend Mentor | {projectTitle} Project</title>
       </Helmet>
       <picture className="hero-img-wrapper">
-        <source media="(max-width: 375px)" srcSet={projectHeroMobile} />
+        <source media="(max-width: 888px)" srcSet={projectHeroMobile} />
         <source
-          media="(max-width: 1219px) and (min-width: 376px)"
+          media="(max-width: 1297px) and (min-width: 889px)"
           srcSet={projectHeroTablet}
         />
-        <source media="(min-width: 1220px)" srcSet={projectHeroDesktop} />
+        <source media="(min-width: 1298px)" srcSet={projectHeroDesktop} />
         <img src={projectHeroMobile} alt="" className="project-hero-img" />
       </picture>
       <section className="overview">
@@ -70,21 +70,21 @@ const ProjectDetail = ({
         </p>
         <h2 className="sub-heading">Static Previews</h2>
         <picture className="static-img-wrapper">
-          <source media="(max-width: 375px)" srcSet={staticDesktopMobile} />
+          <source media="(max-width: 888px)" srcSet={staticDesktopMobile} />
           <source
-            media="(max-width: 1219px) and (min-width: 376px)"
+            media="(max-width: 1297px) and (min-width: 889px)"
             srcSet={staticDesktopTablet}
           />
-          <source media="(min-width: 1220px)" srcSet={staticDesktopDesktop} />
+          <source media="(min-width: 1298px)" srcSet={staticDesktopDesktop} />
           <img src={staticDesktopMobile} alt="" className="static-img" />
         </picture>
         <picture className="static-img-wrapper">
-          <source media="(max-width: 375px)" srcSet={staticMobileMobile} />
+          <source media="(max-width: 888px)" srcSet={staticMobileMobile} />
           <source
-            media="(max-width: 1219px) and (min-width: 376px)"
+            media="(max-width: 1298px) and (min-width: 889px)"
             srcSet={staticMobileTablet}
           />
-          <source media="(min-width: 1220px)" srcSet={staticMobileDesktop} />
+          <source media="(min-width: 1298px)" srcSet={staticMobileDesktop} />
           <img src={staticMobileMobile} alt="" className="static-img" />
         </picture>
       </section>

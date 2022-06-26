@@ -38,7 +38,7 @@ function App() {
             ? "My Projects"
             : pathname === "/contact"
             ? "Contact Me"
-            : "Insert Page Title"}
+            : ""}
         </title>
       </Helmet>
       <Header

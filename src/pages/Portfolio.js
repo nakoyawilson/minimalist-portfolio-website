@@ -1,3 +1,4 @@
+import { useOutletContext } from "react-router-dom";
 import bookmarkImgMobile from "../images/portfolio/mobile/image-portfolio-bookmark@2x.jpg";
 import bookmarkImgTablet from "../images/portfolio/tablet/image-portfolio-bookmark@2x.jpg";
 import bookmarkImgDesktop from "../images/portfolio/desktop/image-portfolio-bookmark@2x.jpg";
@@ -14,7 +15,9 @@ import "./Portfolio.css";
 import ProjectSummary from "../components/ProjectSummary";
 import CallToAction from "../components/CallToAction";
 
-const Portfolio = ({ scrollToTop }) => {
+const Portfolio = () => {
+  const scrollToTop = useOutletContext();
+
   return (
     <main className="portfolio container">
       <div className="projects-wrapper">
@@ -27,7 +30,7 @@ const Portfolio = ({ scrollToTop }) => {
           projectImgMobile={manageImgMobile}
           projectImgTablet={manageImgTablet}
           projectImgDesktop={manageImgDesktop}
-          projectPathname="/"
+          projectPathname="/manage"
           scrollToTop={scrollToTop}
         />
         <ProjectSummary
@@ -39,7 +42,7 @@ const Portfolio = ({ scrollToTop }) => {
           projectImgMobile={bookmarkImgMobile}
           projectImgTablet={bookmarkImgTablet}
           projectImgDesktop={bookmarkImgDesktop}
-          projectPathname="/"
+          projectPathname="/bookmark"
           scrollToTop={scrollToTop}
         />
         <ProjectSummary
@@ -51,7 +54,7 @@ const Portfolio = ({ scrollToTop }) => {
           projectImgMobile={insureImgMobile}
           projectImgTablet={insureImgTablet}
           projectImgDesktop={insureImgDesktop}
-          projectPathname="/"
+          projectPathname="/insure"
           scrollToTop={scrollToTop}
         />
         <ProjectSummary
@@ -64,7 +67,7 @@ const Portfolio = ({ scrollToTop }) => {
           projectImgMobile={fyloImgMobile}
           projectImgTablet={fyloImgTablet}
           projectImgDesktop={fyloImgDesktop}
-          projectPathname="/"
+          projectPathname="/fylo"
           scrollToTop={scrollToTop}
         />
       </div>

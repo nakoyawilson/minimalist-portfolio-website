@@ -53,4 +53,21 @@
   .container {
     width: min(77.08333%, 1110px);
   }
+
+  .btn-primary {
+    transition: all 0.5s ease-in-out;
+  }
+
+  .btn-primary:hover {
+    background: var(--slightly-desaturated-cyan);
+  }
+
+  .btn-secondary {
+    transition: all 0.5s ease-in-out;
+  }
+
+  .btn-secondary:hover {
+    color: var(--white);
+    background-color: var(--grayish-dark-blue);
+  }
 }

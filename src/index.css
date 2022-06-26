@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;700&family=Public+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;700&family=Public+Sans:ital,wght@0,400;1,700&display=swap");
 
 :root {
   --primary-font: "Public Sans", sans-serif;
@@ -12,7 +12,7 @@
   --light-grey: hsl(240, 2%, 92%);
   --very-light-grey: hsl(0, 0%, 98%);
   --white: hsl(0, 0%, 100%);
-  /* --black-transparent: hsla(0, 0%, 0%, 0.1); */
+  --black-transparent: hsla(0, 0%, 0%, 0.1);
 }
 
 /* General Styles */

@@ -3,3 +3,20 @@
   align-items: center;
   gap: 1.6rem;
 }
+
+/* Media Queries */
+
+@media screen and (min-width: 769px) {
+  .social-icon-wrapper .social-icon {
+    transition: all 0.5s ease-in-out;
+  }
+
+  .social-icon-wrapper:hover {
+    cursor: pointer;
+  }
+
+  .social-icon-wrapper:hover .social-icon {
+    fill: var(--slightly-desaturated-cyan);
+    cursor: pointer;
+  }
+}

@@ -79,4 +79,12 @@
   .header {
     width: min(77.15278%, 1111px);
   }
+
+  .nav-link {
+    transition: all 0.5s ease-in-out;
+  }
+
+  .nav-link:hover {
+    color: var(--slightly-desaturated-cyan);
+  }
 }

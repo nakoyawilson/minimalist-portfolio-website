@@ -252,6 +252,11 @@
 
   .link {
     padding: 3.2rem 0;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .link:hover {
+    color: var(--slightly-desaturated-cyan);
   }
 
   /* Call To Action */

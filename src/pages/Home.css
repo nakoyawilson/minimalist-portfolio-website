@@ -131,4 +131,8 @@
   .home .cta {
     margin-top: 15rem;
   }
+
+  .home .btn-primary:hover::before {
+    background-image: url("../images/icons/down-arrows-white.svg");
+  }
 }

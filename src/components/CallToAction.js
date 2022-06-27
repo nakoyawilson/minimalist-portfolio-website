@@ -10,7 +10,7 @@ const CallToAction = () => {
         Interested in doing a project together?
       </h2>
       <div className="divider"></div>
-      <Link to="/contact" onClick={scrollToTop} className="btn-secondary">
+      <Link to="contact" onClick={scrollToTop} className="btn-secondary">
         Contact Me
       </Link>
     </section>

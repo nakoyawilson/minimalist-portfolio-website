@@ -114,6 +114,12 @@
     width: 445px;
   }
 
+  .hero .section-heading {
+    font-size: 5rem;
+    line-height: 5rem;
+    letter-spacing: -0.446429px;
+  }
+
   .home .btn-primary {
     margin-top: 5.3rem;
   }
@@ -124,11 +130,13 @@
 
   .about-wrapper {
     margin-top: 15rem;
+    justify-content: flex-start;
     gap: 12.5rem;
   }
 
   .about {
     padding: 5rem 0 4.6rem;
+    width: 350px;
   }
 
   .home .cta {

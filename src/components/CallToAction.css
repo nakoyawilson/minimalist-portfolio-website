@@ -4,6 +4,7 @@
 
 .cta .btn-secondary {
   padding: 1.7rem 3.5rem 1.7rem 3.2rem;
+  text-align: center;
   margin-top: 4rem;
 }
 
@@ -11,9 +12,11 @@
 @media screen and (min-width: 889px) {
   .cta {
     text-align: left;
-    display: flex;
+    display: grid;
+    grid-template-columns: 350px 1fr 162px;
     justify-content: space-between;
     align-items: center;
+    gap: 3.2rem;
   }
 
   .cta .section-heading {
@@ -21,25 +24,14 @@
     position: relative;
   }
 
-  .cta .section-heading::after {
-    content: "";
-    width: 113px;
+  .divider {
+    width: 100%;
     height: 1px;
     background: var(--grayish-dark-blue-transparent);
-    position: absolute;
-    right: -145px;
-    top: 42px;
   }
 
   .cta .btn-secondary {
     margin-top: 0;
-  }
-}
-
-@media screen and (min-width: 1298px) {
-  .cta .section-heading::after {
-    width: 534px;
-    right: -566px;
-    top: 48px;
+    padding: 1.7rem 0;
   }
 }

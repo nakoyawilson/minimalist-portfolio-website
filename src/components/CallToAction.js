@@ -9,6 +9,7 @@ const CallToAction = () => {
       <h2 className="section-heading">
         Interested in doing a project together?
       </h2>
+      <div className="divider"></div>
       <Link to="/contact" onClick={scrollToTop} className="btn-secondary">
         Contact Me
       </Link>

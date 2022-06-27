@@ -118,6 +118,8 @@
     font-size: 5rem;
     line-height: 5rem;
     letter-spacing: -0.446429px;
+    position: relative;
+    top: -3px;
   }
 
   .home .btn-primary {

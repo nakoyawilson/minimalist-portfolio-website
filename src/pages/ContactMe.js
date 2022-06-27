@@ -63,7 +63,7 @@ const ContactMe = () => {
               }`}
               {...register("emailAddress", {
                 required: true,
-                pattern: /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
+                // pattern: /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
               })}
             />
             {errors.emailAddress?.type === "required" && (

@@ -148,4 +148,11 @@
   .home .btn-primary:hover::before {
     background-image: url("../images/icons/down-arrows-white.svg");
   }
+
+  .about .btn-secondary {
+    margin-top: 2.4rem;
+    width: 20.2rem;
+    padding: 1.7rem 0;
+    text-align: center;
+  }
 }

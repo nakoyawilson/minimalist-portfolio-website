@@ -63,10 +63,6 @@
 }
 
 @media screen and (min-width: 1298px) {
-  .footer {
-    padding: 2.4rem 0 2.8rem;
-  }
-
   .footer-link {
     transition: all 0.5s ease-in-out;
   }
